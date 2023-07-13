@@ -9,6 +9,7 @@
 name: Terraform Cloud Speculative Run
 
 on:
+  workflow_dispatch:
   pull_request:
     branches:
     ## RECOMMENDED: Change for your target branch, or include branches you wish to trigger this workflow file.
